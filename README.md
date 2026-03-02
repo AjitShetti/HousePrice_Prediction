@@ -21,3 +21,26 @@ The model with the highest R² score is automatically saved for future predictio
 
 ## 🧩 Project Structure
 
+```text
+main.py             # entry-point to train and evaluate models
+app.py              # Streamlit web app for price prediction
+src/                # python modules
+  data_preprocessing.py
+  model_training.py
+  model_evaluation.py
+```
+
+## 🛠️ Running the Streamlit App
+
+Once you have trained a model (e.g. by executing `python main.py`), start the interactive
+UI with:
+
+```bash
+streamlit run app.py
+```
+
+This will open a browser window allowing users to input property details and receive a
+predicted price.
+
+## 🧩 Project Structure
+
